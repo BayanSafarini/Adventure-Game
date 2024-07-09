@@ -1,5 +1,5 @@
 # Text-Based Adventure Game
----
+
 A Python text-based adventure game where players encounter various villains and make decisions to progress through the story. The game includes randomization of villains and the option to find a magical sword to aid in defeating them.
 
 ## Features
@@ -27,13 +27,3 @@ The game is structured into several functions:
 - **`cave(player)`**: Manages interactions when exploring a cave in the game.
 - **`outside_choices(player)`**: Guides players through choices outside the house and cave.
 - **`adventure_game()`**: Initializes and orchestrates the game flow, including random villain selection.
-
-## Installation
-
-Ensure Python 3.x is installed on your machine. No additional libraries are required.
-
-```bash
-git clone https://github.com/BayanSafarini/adventure-game.git
-cd adventure-game
-python adventure_game.py
-```
